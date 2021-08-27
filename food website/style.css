@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  font-family: "Klee One", cursive;
+  background-image: url("../backg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  opacity: 0.5;
+  flex-direction: column;
+  background-color: #7d5a50;
+  padding: 4em;
+}
+
+.main {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+.sub {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
